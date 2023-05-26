@@ -71,7 +71,24 @@ Bu kütüphaneler, veri işleme, veri analizi, veri görselleştirme, makine ö�
 
 X.XX Hangi sonuçlara ulaşılmış? Sonuçlar nasıl ifade edilmiş (görsel, tablo,metin..)
 
- 
+ ![image](https://github.com/Sefasayraci/Cuff-Less-Blood-Pressure-Estimation-Dataset-/assets/73780930/c13677f3-b895-44a9-a99d-a31da58b10e2)
+
+##plotting sample ppg, ecg and bp signals
+##using a sample size of 125
+fig, ax = plt.subplots(3,1, figsize=(9,12), sharex=True)
+
+ax[0].set_title('PPG graph', fontsize=16)
+ax[0].set_ylabel('Signal Value')
+ax[0].plot(ppg[:125])
+
+ax[1].set_title('ECG graph', fontsize=16)
+ax[1].set_ylabel('Signal Value')
+ax[1].plot(ecg[:125])
+
+ax[2].set_title('Blood Pressure (BP) graph', fontsize=16)
+ax[2].set_ylabel('Signal Value')
+ax[2].set_xlabel('Sample size')
+ax[2].plot(bp[:125])
 
 
  
