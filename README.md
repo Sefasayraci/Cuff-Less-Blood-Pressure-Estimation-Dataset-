@@ -1,4 +1,4 @@
-# Cuff-Less-Blood-Pressure-Estimation-Dataset-
+# Cuff Less Blood Pressure Estimation Dataset
 Cuff-Less Blood Pressure Estimation Dataset 
 Veriseti ve üretilmiş sonuca ilişkin araştırma
 1. Araştırmanın amacı nedir?
