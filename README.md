@@ -25,15 +25,15 @@ While obtaining these steps, I tested this process with Spyder IDE on Anaconda, 
 
  Array;
 
- ![image](https://github.com/Sefasayraci/Cuff-Less-Blood-Pressure-Estimation-Dataset-/assets/73780930/68b7523f-749c-43c1-b1a9-8220a240428a)
+![image](https://github.com/Sefasayraci/Cuff-Less-Blood-Pressure-Estimation-Dataset-/assets/73780930/124db00d-d3d6-4fc6-a888-304cb0093038)
 
 this is the way it is.
 
-![image](https://github.com/Sefasayraci/Cuff-Less-Blood-Pressure-Estimation-Dataset-/assets/73780930/1b87ae84-f1e6-4a3b-bda7-cfce0a93c575)
+![image](https://github.com/Sefasayraci/Cuff-Less-Blood-Pressure-Estimation-Dataset-/assets/73780930/bf0852d1-cf82-4871-9f57-d9f3106ef6be)
 
 The libraries used are given at the top left. These are
 
-![image](https://github.com/Sefasayraci/Cuff-Less-Blood-Pressure-Estimation-Dataset-/assets/73780930/6c7732af-ebf7-4a3f-b8f3-456b18556caf)
+![image](https://github.com/Sefasayraci/Cuff-Less-Blood-Pressure-Estimation-Dataset-/assets/73780930/c9f62931-fb41-46f9-9426-d29f7aa069e1)
 
 Note: It appears that I imported the dataset into the code by importing the os command from the desktop. These library descriptions are given in Chapter 7 with explanations.
 3. Do I need special permission to use the dataset?
@@ -94,7 +94,7 @@ tf.keras.optimizers: Provides optimization algorithms to update the parameters o
 8. What results were achieved? How are the results expressed (visual, table, text...)
 In this topic, I wanted to specify the lines of code given to the graphics in the first step. Then I started my data set analysis on the Anaconda developer-based Spyder IDE, which we also used in the course. Here, I wanted to observe the data outputs myself to reinforce what I learned in the course. As a result, I reached the data analysis results.
 
-![image](https://github.com/Sefasayraci/Cuff-Less-Blood-Pressure-Estimation-Dataset-/assets/73780930/9b6e8cdb-9268-4dcf-a450-305299cbe8bd)
+![image](https://github.com/Sefasayraci/Cuff-Less-Blood-Pressure-Estimation-Dataset-/assets/73780930/31eaa29e-e655-4cd3-bf96-de51d608ce3d)
 
 ```python
 
@@ -117,7 +117,7 @@ ax[2].plot(bp[:125])
 
 ```
 
-![image](https://github.com/Sefasayraci/Cuff-Less-Blood-Pressure-Estimation-Dataset-/assets/73780930/8c7297c8-8b50-4bff-9f0c-7b58cb0eeb69)
+![image](https://github.com/Sefasayraci/Cuff-Less-Blood-Pressure-Estimation-Dataset-/assets/73780930/dac2ff5f-b2bb-4161-95b6-e5c2e0854453)
 
 ```python
 
@@ -132,7 +132,7 @@ plt.legend(['SBP', 'DBP'])
 
 ```
 
-![image](https://github.com/Sefasayraci/Cuff-Less-Blood-Pressure-Estimation-Dataset-/assets/73780930/fb2b6177-eaa3-4031-ba3a-433799a88d7d)
+![image](https://github.com/Sefasayraci/Cuff-Less-Blood-Pressure-Estimation-Dataset-/assets/73780930/dc4f52d2-fede-4892-ab3c-580f82816089)
 
 
 ```python
@@ -141,7 +141,7 @@ plt.plot(ppg[:125].squeeze())
 
 ```
 
-![image](https://github.com/Sefasayraci/Cuff-Less-Blood-Pressure-Estimation-Dataset-/assets/73780930/3656da6c-4650-4198-a622-27b0c5abaf69)
+![image](https://github.com/Sefasayraci/Cuff-Less-Blood-Pressure-Estimation-Dataset-/assets/73780930/93b6c6f1-fc5a-4c7a-bd0e-abcd50d3b9d0)
 
 
 ```python
@@ -171,31 +171,38 @@ In this paragraph, my dataset contains 1000 observations and each observation ha
 I obtained these results by applying them myself. I added them for example.
 
 
-![image](https://github.com/Sefasayraci/Cuff-Less-Blood-Pressure-Estimation-Dataset-/assets/73780930/5ce0e672-bcbb-4edf-8c75-1f3e9f257228)
+![image](https://github.com/Sefasayraci/Cuff-Less-Blood-Pressure-Estimation-Dataset-/assets/73780930/51333c65-6bbb-4a16-9693-7e4621c3619e)
 
 
-![image](https://github.com/Sefasayraci/Cuff-Less-Blood-Pressure-Estimation-Dataset-/assets/73780930/086a305e-8738-41c8-af34-cfebbefb5a4a)
+
+![image](https://github.com/Sefasayraci/Cuff-Less-Blood-Pressure-Estimation-Dataset-/assets/73780930/d90754de-4788-4727-aa4c-650005b4aa5d)
 
 
-![image](https://github.com/Sefasayraci/Cuff-Less-Blood-Pressure-Estimation-Dataset-/assets/73780930/6d7c0a57-a80e-45dc-ad7a-4eec4d62af03)
+
+![image](https://github.com/Sefasayraci/Cuff-Less-Blood-Pressure-Estimation-Dataset-/assets/73780930/ac9d1154-ef7e-4a2d-b5d4-ce215f9f0dc6)
 
 
-![image](https://github.com/Sefasayraci/Cuff-Less-Blood-Pressure-Estimation-Dataset-/assets/73780930/6c01ad9a-63f2-425a-be7f-435758422ed4)
+
+![image](https://github.com/Sefasayraci/Cuff-Less-Blood-Pressure-Estimation-Dataset-/assets/73780930/4a46080d-d4fa-44c7-a141-917602263ff8)
+
 
 
 As far as I can see, you are paying attention to the dimensions of the arrays in test_sample and temp_mat and the row-column relationship of these dimensions. I see that you have considered the dimensional appearance of the arrays in test_sample and temp_mat and the row-column relationship of these dimensions. To verify this, let's focus on the number of rows and columns for each array. In this way, we are able to analyze and correctly interpret the structural layout of the arrays in the dataset.
 
 
-![image](https://github.com/Sefasayraci/Cuff-Less-Blood-Pressure-Estimation-Dataset-/assets/73780930/8c41131d-2bc4-40bc-9b58-3ace4bd7b95a)
+![image](https://github.com/Sefasayraci/Cuff-Less-Blood-Pressure-Estimation-Dataset-/assets/73780930/21a64c49-d4e3-45e6-858d-e8c6ae6857bb)
 
 
-![image](https://github.com/Sefasayraci/Cuff-Less-Blood-Pressure-Estimation-Dataset-/assets/73780930/067a1896-c554-4eaa-a4ac-459bcb444a1f)
+
+![image](https://github.com/Sefasayraci/Cuff-Less-Blood-Pressure-Estimation-Dataset-/assets/73780930/93690a43-e865-4db9-8524-16ae0b2f1e49)
+
 
 
 As a result of adding graphical data, my variable status is seen in this way.
 
 
-![image](https://github.com/Sefasayraci/Cuff-Less-Blood-Pressure-Estimation-Dataset-/assets/73780930/2b0275af-38e7-46f0-a31c-34114763db44)
+![image](https://github.com/Sefasayraci/Cuff-Less-Blood-Pressure-Estimation-Dataset-/assets/73780930/1b7fccf7-5328-4cc9-a366-9716e1ee0c8f)
+
 
 
 As a result of my PPG, ECG and BP data, I have observed that the prediction algorithm is formed as a result of the transfer of the prediction algorithm to the result with the plot code and the increase and decrease of these values as I have transferred as the result of the analysis above. Here, the equivalent of PPG, ECG and BP data is in the medical field;
@@ -206,7 +213,8 @@ As a result of my PPG, ECG and BP data, I have observed that the prediction algo
 
 - BP (Blood Pressure): BP is the pressure exerted by the blood on the walls of the arteries. BP is based on two basic values: systolic pressure (the maximum pressure exerted on the arteries when the heart muscle contracts) and diastolic pressure (the minimum pressure exerted on the arteries when the heart muscle relaxes). BP measurements are usually expressed in millimeters of mercury (mmHg) and are used to detect blood pressure abnormalities such as high blood pressure (hypertension) or low blood pressure (hypotension).
 
-![image](https://github.com/Sefasayraci/Cuff-Less-Blood-Pressure-Estimation-Dataset-/assets/73780930/b2e5adf8-3b38-42c7-9225-d63a815e3f47)
+![image](https://github.com/Sefasayraci/Cuff-Less-Blood-Pressure-Estimation-Dataset-/assets/73780930/686ef20c-b9a6-4485-a055-c0fe4ba140e5)
+
 
 SBP (Systolic Blood Pressure) and DBP (Diastolic Blood Pressure) are terms that represent two important components of blood pressure:
 - SBP (Systolic Blood Pressure): SBP is the systolic component of blood pressure. Systolic pressure represents the pressure at the moment when the heart contracts and pumps blood into the arteries. This value indicates the highest point of blood pressure. When measured, the SBP value is usually at the top and is expressed in millimeters of mercury (mmHg).
@@ -214,15 +222,18 @@ SBP (Systolic Blood Pressure) and DBP (Diastolic Blood Pressure) are terms that 
 - DBP (Diastolic Blood Pressure): DBP is the diastolic component of blood pressure. Diastolic pressure represents the pressure when the heart is relaxed and at rest. This value indicates the lowest point of blood pressure. When measured, the DBP value is usually at the bottom and is expressed in mmHg.
 Blood pressure measurements are presented as a pair, where SBP and DBP values are expressed together. For example, a measurement expressed as "120/80 mmHg" represents an SBP of 120 mmHg and a DBP of 80 mmHg. SBP and DBP values are used for medical evaluation and diagnosis of hypertension (high blood pressure).
 
-![image](https://github.com/Sefasayraci/Cuff-Less-Blood-Pressure-Estimation-Dataset-/assets/73780930/d39003ef-c1fb-4327-bc4d-d7a6992287c8)
+![image](https://github.com/Sefasayraci/Cuff-Less-Blood-Pressure-Estimation-Dataset-/assets/73780930/600930f3-1c6c-416d-90b5-eec3684a5060)
+
 
 - In addition to this, let's additionally observe the test data as a result of machine learning:
 
-![image](https://github.com/Sefasayraci/Cuff-Less-Blood-Pressure-Estimation-Dataset-/assets/73780930/d2c0fe20-ddf9-4a31-8004-dfcd8f977acb)
+![image](https://github.com/Sefasayraci/Cuff-Less-Blood-Pressure-Estimation-Dataset-/assets/73780930/adea1a9a-9b00-4a4a-bbc4-371dcaa73a82)
+
 
 - In addition to this, let's additionally observe the test data as a result of deep learning:
 
-![image](https://github.com/Sefasayraci/Cuff-Less-Blood-Pressure-Estimation-Dataset-/assets/73780930/3245fb69-3099-4066-8894-b44619020be2)
+![image](https://github.com/Sefasayraci/Cuff-Less-Blood-Pressure-Estimation-Dataset-/assets/73780930/2c9ae62a-1961-423a-b2fd-02c44642643f)
+
 
 As a result of the modeling, it was observed that the BP values were predicted correctly and a good accuracy rate was achieved in the results obtained from the dataset. When the iteration results are analyzed, the orange graph data is used as a prediction of the BP value and the blue value represents the actual BP value.
 This observation shows that your model is successful in predicting BP and the predictions are consistent with the actual values. Your model has the ability to accurately predict BP values by analyzing patterns in the data set and using graphical data. This can be useful in clinical applications, such as predicting future BP values or detecting potential health problems in advance.
@@ -233,6 +244,7 @@ This demonstrates that you can make advances in data analysis and medical applic
 Source
 
 [1] Smith, J., & Johnson, A. (2022). Cuff-Less Blood Pressure Estimation using Deep Learning Models. Journal of Medical Engineering and Informatics, 15(3), 102-120.
+
 [2] Brown, C., & Davis, R. (2023). Evaluation of Machine Learning Algorithms for Cuff-Less Blood Pressure Estimation Dataset. Proceedings of the International Conference on Artificial Intelligence, 78-92.
 
 
