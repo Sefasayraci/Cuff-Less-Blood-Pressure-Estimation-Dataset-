@@ -21,7 +21,7 @@ In this area, let's first examine the properties of the dataset we examined thro
 This code means that the sequence of rows contains 1 row and 1000 columns.
 While obtaining these steps, I tested this process with Spyder IDE on Anaconda, which we used in the course. I share these additional images with you:
 
- ![image](https://github.com/Sefasayraci/Cuff-Less-Blood-Pressure-Estimation-Dataset-/assets/73780930/37343b9b-9854-4172-95af-1db6c580a14d)
+![image](https://github.com/Sefasayraci/Cuff-Less-Blood-Pressure-Estimation-Dataset-/assets/73780930/d76f0d9f-392a-40d2-81df-f8d418555321)
 
  Array;
 
