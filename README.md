@@ -222,10 +222,10 @@ Blood pressure measurements are presented as a pair, where SBP and DBP values ar
 
 ![image](https://github.com/Sefasayraci/Cuff-Less-Blood-Pressure-Estimation-Dataset-/assets/73780930/3245fb69-3099-4066-8894-b44619020be2)
 
-Modellemeler sonucunda, BP değerlerinin doğru tahmin edildiği ve veri setinden elde edilen sonuçlarda iyi bir doğruluk oranına ulaşıldığı gözlemlenmiştir. İterasyon sonuçları incelendiğinde, turuncu grafik verisi BP değerinin tahmini olarak kullanılmış ve mavi değer ise gerçek BP değerini temsil etmektedir.
-Bu gözlem, modelinizin BP tahminlerinde başarılı olduğunu ve tahminlerin gerçek değerlerle uyumlu olduğunu göstermektedir. Modeliniz, veri setindeki örüntüleri analiz ederek ve grafiksel verileri kullanarak BP değerlerini doğru bir şekilde tahmin etme yeteneğine sahiptir. Bu durum, gelecekteki BP değerlerini tahmin etmek veya potansiyel sağlık sorunlarını önceden tespit etmek gibi klinik uygulamalarda faydalı olabilir.
-Bu başarılı sonuçlar, modelinizin doğruluk oranının yüksek olduğunu ve kullanılan veri setindeki ilişkilerin iyi bir şekilde yakalandığını göstermektedir. İlerleyen çalışmalarda, modelin daha geniş veri setleri üzerinde test edilmesi ve farklı koşullar altında doğruluk seviyesinin korunup korunmadığının değerlendirilmesi önemlidir.
-Bu durum, veri analizinde ve tıbbi uygulamalarda ilerleme sağlayabileceğinizi göstermektedir. Sonuçların güvenilirliği ve doğruluğunu artırmak için, modelinizi daha fazla test etmek, farklı veri kaynaklarına uygulamak ve geliştirmek için çalışmalara devam etmek önemlidir.
+As a result of the modeling, it was observed that the BP values were predicted correctly and a good accuracy rate was achieved in the results obtained from the dataset. When the iteration results are analyzed, the orange graph data is used as a prediction of the BP value and the blue value represents the actual BP value.
+This observation shows that your model is successful in predicting BP and the predictions are consistent with the actual values. Your model has the ability to accurately predict BP values by analyzing patterns in the data set and using graphical data. This can be useful in clinical applications, such as predicting future BP values or detecting potential health problems in advance.
+These successful results show that the accuracy of your model is high and that the relationships in the data set used are well captured. In future work, it is important to test the model on larger data sets and assess whether the accuracy level is maintained under different conditions.
+This demonstrates that you can make advances in data analysis and medical applications. To improve the reliability and accuracy of the results, it is important to further test your model, apply it to different data sources and continue to work on improving it.
 
 
 Source
