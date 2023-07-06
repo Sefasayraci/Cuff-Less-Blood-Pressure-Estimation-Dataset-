@@ -50,6 +50,7 @@ Matplotlib: It is a library used to create graphics and visualizations. Matplotl
 TensorFlow: It is a library used for creating and training deep learning models. TensorFlow was used to create neural networks and deep learning models.
 These data structures were used for different purposes in different parts of the code. For example, numpy was used for matrix operations, while pandas was used for data manipulation and analysis.
 
+
 5. What was done in data preprocessing? For example, is there missing data? If so, by which method was it solved?
 In this code example, the data preprocessing steps are as follows:
 1. Data loading: In the first step, the MATLAB format data file (*.mat) was loaded using the scipy.io.loadmat function (there is also a csv extension data set).
@@ -67,6 +68,7 @@ In this code sample, data analysis and machine learning methods were used to pre
 7. Blood pressure prediction was also performed using deep learning (neural network). A multi-layer perceptron model was created and trained.
 8. Finally, the performance of the model was measured and error values were calculated.
 9. The goal of this code sample is to predict blood pressure using pulse (PPG) data and evaluate the performance of different machine learning methods.
+
 
 7. Which libraries were used?
 The following libraries were used in this code:
